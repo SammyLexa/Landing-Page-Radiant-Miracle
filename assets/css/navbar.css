@@ -1,0 +1,10 @@
+.logo{
+    width: 250px ;
+    height:200px ;
+}
+
+
+
+.menu{
+    background-color: var(--cor-fundo);
+}

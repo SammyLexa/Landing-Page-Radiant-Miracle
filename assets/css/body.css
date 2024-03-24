@@ -1,0 +1,15 @@
+
+
+:root {
+    --cor-principal: #8B3E2C;
+    --cor-secundaria: #29261D;
+    --cor-fundo: #E6E3DE;
+
+    --fonte-principal: "Montserrat", sans-serif;;
+    --fonte-destaque:"Cinzel", serif;
+
+    --tamanho-titulo: 2rem;
+    --tamanho-paragrafremo: 1rem;
+
+    --peso-titulo: 400;
+}
