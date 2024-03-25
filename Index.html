@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="./assets/css/body.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/resultado.css">
 </head>
 
 <body>
@@ -29,7 +31,7 @@
         <nav class="navbar navbar-expand-lg menu">
             <div class="container-fluid">
                 <img src="./assets/img/logo.png" alt="Logo" class="logo">
-                <a class="navbar-brand" href="#">Radiant Miracle</a>
+                <a class="navbar-brand col-6" href="#">Radiant Miracle</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -38,7 +40,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active home" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#beneficios">Benefícios</a>
@@ -75,40 +77,65 @@
                 </button>
             </div>
         </section>
-        <h1 class="titulo-principal">
-            Descubra Sua Verdadeira Potência com o Radiant Miracle
-        </h1>
-        <p class="paragrafo">
-            Experimente a transformação de uma pele opaca para uma pele radiante com o "Radiant Miracle". Nossa fórmula
-            exclusiva é sua chave para uma pele luminosa e saudável, livre de manchas escuras e imperfeições. Deixe sua
-            beleza natural brilhar com o "Radiant Miracle".
-        </p>
-        <h3 class="subtitulo" id="beneficios">Benefícios:</h3>
-        <ul class="lista-beneficios paragrafo">
-            <li>
-                Regenera membros perdidos reestruturando as células.
-            </li>
+        <section class="conteudo-container">
+            <h1 class="titulo-principal">
+                Descubra Sua Verdadeira Potência com o Radiant Miracle
+            </h1>
+            <p class="paragrafo">
+                Experimente a transformação de uma pele opaca para uma pele radiante com o "Radiant Miracle". Nossa
+                fórmula
+                exclusiva é sua chave para uma pele luminosa e saudável, livre de manchas escuras e imperfeições. Deixe
+                sua
+                beleza natural brilhar com o "Radiant Miracle". Regeneração de membros perdidos como mágica!
+            </p>
+            <h3 class="subtitulo" id="beneficios">Benefícios:</h3>
+            <ul class="lista-beneficios">
+                <li>
+                    Regenera membros perdidos reestruturando as células.
+                </li>
 
-            <li>
-                Restaura a luminosidade natural da pele.
-            </li>
+                <li>
+                    Restaura a luminosidade natural da pele.
+                </li>
 
-            <li>
-                Hidrata profundamente, deixando a pele macia e suave.
-            </li>
+                <li>
+                    Hidrata profundamente, deixando a pele macia e suave.
+                </li>
 
-            <li>
-                Fórmula natural e segura para todos os tipos de pele.
-            </li>
-        </ul>
+                <li>
+                    Fórmula natural e segura para todos os tipos de pele.
+                </li>
+            </ul>
+        </section>
+        <section class="resultado row">
+            <div class="card col-md-6" style="">
+                <img src="./assets/img/antesedepois.png" class="card-img-top img-resultado" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Antes e Depois do Radiant Miracle</h5>
+                    <p class="card-text">
+                        Rejuvenecimento mágico! Com uma textura luxuosa e fragrância delicada, Radiant Miracle desliza suavemente na pele, deixando-a macia, hidratada e com um brilho natural. Nossa fórmula exclusiva combate os sinais de envelhecimento, reduzindo rugas e linhas finas, enquanto restaura a elasticidade e firmeza da pele.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-md-6" style="">
+                <img src="./assets/img/regeneração.jpg" class="card-img-top img-resultado" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Regeneração de membros</h5>
+                    <p class="card-text">
+                        Com Radiant Miracle, a perda de um membro não significa mais o fim de uma vida ativa e independente. Nossa tecnologia inovadora oferece uma nova chance para aqueles que enfrentam desafios físicos, restaurando não apenas a função, mas também a esperança.
+                    </p>
+                </div>
+            </div>
+        </section>
         <div class="CTA-container" id="compra">
             <h3 class="subtitulo">Compre hoje mesmo!</h3>
-            <h4 class="paragrafo--descricao">*Será enviado um para o seu email as informações de pagamento e entrega.</h4>
+            <h4 class="paragrafo--descricao">*Será enviado um para o seu email as informações de pagamento e entrega.
+            </h4>
             <p class="paragrafo">
                 Experimente o "Radiant Miracle" hoje e descubra uma nova potência para sua pele. Seja a melhor versão de
                 si mesma com o poder da natureza e da ciência em um único produto.
             </p>
-            <form class="row g-3">
+            <form class="row g-3 form">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Email</label>
                     <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com">
@@ -161,8 +188,20 @@
             </form>
         </div>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <ul class="footer__lista">
+            <li class="lista__link">
+                <a href="#">Problemas na compra</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Politica de privacidade</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Ajuda</a>
+            </li>
+        </ul>
+        <p class="footer__texto">® Radiant Miracle. Todos os direitos reservados. </p>
+        <p class="footer__texto">Contato: exemplo@email.com.br | Telefone: (12) 1234-5678</p>
     </footer>
 </body>
 
